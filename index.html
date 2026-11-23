@@ -106,35 +106,35 @@
     <h2>Jack and the Beanstalk</h2>
     <p class="he" lang="he" dir="rtl">ג'ק וגבעול השעועית</p>
     <audio controls preload="metadata" src="audio/01-jack-and-the-beanstalk.mp3"></audio>
-    <p class="meta">2 min 39 s &middot; <a href="audio/01-jack-and-the-beanstalk.mp3" download>Download MP3</a></p>
+    <p class="meta">3 min 13 s &middot; <a href="audio/01-jack-and-the-beanstalk.mp3" download>Download MP3</a></p>
   </section>
 
   <section class="story">
     <h2>The Fisherman and His Wife</h2>
     <p class="he" lang="he" dir="rtl">הדייג ואשתו</p>
     <audio controls preload="metadata" src="audio/02-fisherman-and-his-wife.mp3"></audio>
-    <p class="meta">3 min 6 s &middot; <a href="audio/02-fisherman-and-his-wife.mp3" download>Download MP3</a></p>
+    <p class="meta">3 min 38 s &middot; <a href="audio/02-fisherman-and-his-wife.mp3" download>Download MP3</a></p>
   </section>
 
   <section class="story">
     <h2>Rumpelstiltskin</h2>
     <p class="he" lang="he" dir="rtl">רומפלשטילצכן</p>
     <audio controls preload="metadata" src="audio/03-rumpelstiltskin.mp3"></audio>
-    <p class="meta">2 min 42 s &middot; <a href="audio/03-rumpelstiltskin.mp3" download>Download MP3</a></p>
+    <p class="meta">3 min 25 s &middot; <a href="audio/03-rumpelstiltskin.mp3" download>Download MP3</a></p>
   </section>
 
   <section class="story">
     <h2>Puss in Boots</h2>
     <p class="he" lang="he" dir="rtl">החתול במגפיים</p>
     <audio controls preload="metadata" src="audio/04-puss-in-boots.mp3"></audio>
-    <p class="meta">2 min 59 s &middot; <a href="audio/04-puss-in-boots.mp3" download>Download MP3</a></p>
+    <p class="meta">3 min 30 s &middot; <a href="audio/04-puss-in-boots.mp3" download>Download MP3</a></p>
   </section>
 
   <section class="story">
     <h2>Beauty and the Beast</h2>
     <p class="he" lang="he" dir="rtl">היפה והחיה</p>
     <audio controls preload="metadata" src="audio/05-beauty-and-the-beast.mp3"></audio>
-    <p class="meta">3 min 5 s &middot; <a href="audio/05-beauty-and-the-beast.mp3" download>Download MP3</a></p>
+    <p class="meta">3 min 39 s &middot; <a href="audio/05-beauty-and-the-beast.mp3" download>Download MP3</a></p>
   </section>
 
   <footer>
@@ -174,7 +174,7 @@
       function show() {
         var d = audio.duration, t = audio.currentTime;
         var ok = isFinite(d) && d > 0;
-        var total = ok ? Math.round(d) : 0;           // rounded, to match the "2 min 42 s" text below
+        var total = ok ? Math.round(d) : 0;           // rounded, to match the "3 min 25 s" text below
         var now = (ok && audio.ended) ? total : t;     // show the full length when finished
         time.textContent = fmt(now) + ' / ' + fmt(total);
         if (!dragging) seek.value = ok ? Math.round(t / d * 1000) : 0;
